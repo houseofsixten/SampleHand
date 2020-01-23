@@ -1,0 +1,110 @@
+{
+  "VisualGraph": {
+    "Graph": {
+      "ModuleNodes": [
+        {
+          "Id": "48678646",
+          "ModuleId": "d95c8f4f-8602-4ee1-a3ce-172fd735236d",
+          "Comment": null,
+          "CloudPriority": 0,
+          "DefaultDataRetentionHint": null,
+          "ModuleParameters": [],
+          "ModuleMetadataParameters": null,
+          "ModuleOutputSettings": null,
+          "ModuleInputSettings": null,
+          "UseGraphDefaultCompute": false,
+          "ComplianceCluster": "",
+          "EuclidWorkspaceId": null,
+          "AttachedModules": null,
+          "AcceptableMachineClusters": [],
+          "CustomDataLocationId": null,
+          "AlertTimeoutDuration": null,
+          "Runconfig": null,
+          "RegenerateOutput": false,
+          "ControlInputs": null
+        }
+      ],
+      "DatasetNodes": [
+        {
+          "Id": "c8a76fe8",
+          "DatasetId": "a9f1012c-f3c9-44bd-a953-5f03812617c9",
+          "DataPathParameterName": null,
+          "DataSetDefinition": null
+        }
+      ],
+      "SubGraphNodes": [],
+      "Edges": [
+        {
+          "SourceOutputPort": {
+            "NodeId": "c8a76fe8",
+            "PortName": "",
+            "GraphPortName": null,
+            "IsParameter": false,
+            "WebServicePort": null
+          },
+          "DestinationInputPort": {
+            "NodeId": "48678646",
+            "PortName": "decklist",
+            "GraphPortName": null,
+            "IsParameter": false,
+            "WebServicePort": null
+          }
+        }
+      ],
+      "DefaultCompute": null,
+      "Id": null,
+      "WorkspaceId": null,
+      "Etag": null,
+      "Tags": null,
+      "CreatedDate": "1970-01-01T00:00:00",
+      "LastModifiedDate": "1970-01-01T00:00:00",
+      "EntityStatus": 0
+    },
+    "Layout": {
+      "NodeLayouts": {
+        "c8a76fe8": {
+          "X": 308.9,
+          "Y": 73.38,
+          "Width": 200.0,
+          "Height": 60.0
+        },
+        "48678646": {
+          "X": 378.5,
+          "Y": 196.58,
+          "Width": 200.0,
+          "Height": 60.0
+        }
+      },
+      "CommentThreads": {},
+      "Id": null,
+      "WorkspaceId": null,
+      "Etag": null,
+      "Tags": null,
+      "CreatedDate": "1970-01-01T00:00:00",
+      "LastModifiedDate": "1970-01-01T00:00:00",
+      "EntityStatus": 0
+    },
+    "Aliases": {
+      "AliasedValues": null,
+      "NodeAliases": {},
+      "Id": null,
+      "WorkspaceId": null,
+      "Etag": null,
+      "Tags": null,
+      "CreatedDate": "2020-01-23T10:14:41.3511365-08:00",
+      "LastModifiedDate": "2020-01-23T10:14:41.3511365-08:00",
+      "EntityStatus": 0
+    }
+  },
+  "Interface": {
+    "Parameters": [],
+    "Ports": {
+      "Inputs": [],
+      "Outputs": []
+    },
+    "ParameterNamesByGroups": [],
+    "MetadataParameters": null,
+    "DataPathParameters": null,
+    "DataPathParameterList": null
+  }
+}
